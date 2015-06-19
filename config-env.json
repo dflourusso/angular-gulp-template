@@ -1,0 +1,26 @@
+{
+  "development": {
+    "APP_ENV": {
+      "env": "development",
+      "apiRoot": "http://localhost:3000"
+    }
+  },
+  "test": {
+    "APP_ENV": {
+      "env": "test",
+      "apiRoot": "http://localhost:3000"
+    }
+  },
+  "staging": {
+    "APP_ENV": {
+      "env": "staging",
+      "apiRoot": "http://my-app-staging.com"
+    }
+  },
+  "production": {
+    "APP_ENV": {
+      "env": "production",
+      "apiRoot": "http://my-app-production.com"
+    }
+  }
+}

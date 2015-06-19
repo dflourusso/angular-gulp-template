@@ -1,0 +1,46 @@
+{
+  "name": "angular-gulp-template",
+  "version": "0.0.1",
+  "description": "Angularjs Gulp Template",
+  "authors": [
+    "Daniel Fernando Lourusso"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/dflourusso/angular-gulp-template.git",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "overrides": {
+    "angular-i18n": {
+      "main": "angular-locale_pt-br.js"
+    },
+    "bootstrap": {
+      "main": [
+        "less/bootstrap.less",
+        "dist/css/bootstrap.css",
+        "dist/js/bootstrap.js",
+        "dist/fonts/glyphicons-halflings-regular.eot",
+        "dist/fonts/glyphicons-halflings-regular.svg",
+        "dist/fonts/glyphicons-halflings-regular.ttf",
+        "dist/fonts/glyphicons-halflings-regular.woff",
+        "dist/fonts/glyphicons-halflings-regular.woff2"
+      ]
+    }
+  },
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.4",
+    "font-awesome": "~4.3.0",
+    "angular": "~1.4.0",
+    "angular-resource": "~1.4.0",
+    "angular-animate": "~1.4.0",
+    "angular-route": "~1.4.0",
+    "angular-mocks": "~1.4.0",
+    "angular-i18n": "~1.4.0",
+    "angular-loading-bar": "~0.7.1"
+  }
+}
